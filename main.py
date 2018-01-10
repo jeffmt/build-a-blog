@@ -40,7 +40,7 @@ def newpost():
         if (not title) or (title.strip() == ""):
             return render_template('newpost.html', body=body, title_error='You must supply a title')
         if (not body) or (body.strip() == ""):
-            return render_template('newpost.html', title=title, title_error='You must supply a body')
+            return render_template('newpost.html', title=title, body_error='You must supply a body')
 
         newpost = Blog(title, body, None)
         db.session.add(newpost)
