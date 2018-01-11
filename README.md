@@ -7,7 +7,7 @@ This web app was implemented in Python using the Flask web framework and the Jin
 ![ListOfBlogs](ListOfBlogs.png "List Of Blogs")
 
 
-![AddBlog](AddBlog.png "Add Blog")
+![AddBlog](AddBlogPost.png "Add Blog")
 
 
 ![BlogPost](blogpost.png "A Blog Post")
